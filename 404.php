@@ -16,13 +16,13 @@
 			                                                	            
 		        <div class="post-content">
 
-					<div class="raised3d">
-						<p>
-							<span class="go3d">4</span>
-							<span class="go3d">0</span>
-							<span class="go3d">4</span>
-						</p>
+					<div class="flatshadow">
+						<div data-angle="SE" class="flat-icon"> 4 </div>
+						<div data-angle="SE" class="flat-icon"> 0 </div>
+						<div data-angle="SE" class="flat-icon"> 4 </div>
+						<div data-angle="SE" class="flat-icon"> ! </div>
 					</div>
+
 					<p></p>
 		        	            
 		            <p><?php _e("他の検索をお試しください。", 'lingonberry') ?></p>

@@ -16,7 +16,18 @@
 		<?php wp_head(); ?>
 
 		<?php if ( is_404() ) { ?>
-			<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/404.css" />
+			<link href="http://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet" type="text/css">
+			<link type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/css/404.min.css" rel="stylesheet" media="all" />
+			<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.flatshadow.min.js"></script>
+			<script>
+			jQuery.noConflict();
+			jQuery(document).ready(function() {
+				jQuery(".flat-icon").flatshadow({
+					fade: true,
+					boxShadow: "#d7cfb9"
+				});
+			});
+			</script>
 		<?php } ?>
 	
 	</head>
