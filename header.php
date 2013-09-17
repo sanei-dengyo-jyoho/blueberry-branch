@@ -9,26 +9,9 @@
 																		
 		<title><?php wp_title('|', true, 'right'); ?></title>
 				
-		<link rel="shortcut icon" href="<?php echo esc_url( home_url() ); ?>/favicon.ico" />
-				
 		<?php if ( is_singular() ) wp_enqueue_script( "comment-reply" ); ?>
 		 
 		<?php wp_head(); ?>
-
-		<?php if ( is_404() ) { ?>
-			<link href="http://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet" type="text/css">
-			<link type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/css/404.min.css" rel="stylesheet" media="all" />
-			<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.flatshadow.min.js"></script>
-			<script>
-			jQuery.noConflict();
-			jQuery(document).ready(function() {
-				jQuery(".flat-icon").flatshadow({
-					fade: true,
-					boxShadow: "#d7cfb9"
-				});
-			});
-			</script>
-		<?php } ?>
 	
 	</head>
 	
@@ -86,9 +69,17 @@
 				
 				<?php endif; ?>
 			        				
-				<h1 class="blog-title">
-					<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>" rel="home"><?php echo esc_attr( get_bloginfo( 'title' ) ); ?></a>
+				<h1 class="blog-title flat-shadows flat-icons-header" style="display:inline-block;margin:16px 0 0 17%;">
+					<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>" rel="home"><?php echo do_shortcode('[flatshadow_text class="circle transition" style="font-size:24px;margin-right:6px;width:2.84em;" tagname="span"]'.esc_attr( get_bloginfo( 'title' ) ).'[/flatshadow_text]'); ?></a>
 				</h1>
+				<script type="text/javascript">
+					jQuery.noConflict();
+					jQuery(document).ready(function() {
+						jQuery(".flat-shadows.flat-icons-header .flat-icon").flatshadow({
+							angle: "SE", fade: false
+						});
+					});
+				</script>
 				
 				<div class="nav-toggle">
 				

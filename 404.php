@@ -16,12 +16,7 @@
 			                                                	            
 		        <div class="post-content">
 
-					<div class="flatshadow">
-						<div data-angle="SE" class="flat-icon"> 4 </div>
-						<div data-angle="SE" class="flat-icon"> 0 </div>
-						<div data-angle="SE" class="flat-icon"> 4 </div>
-						<div data-angle="SE" class="flat-icon"> ! </div>
-					</div>
+					<?php echo do_shortcode('[flatshadows id="404" angle="SE" fade="true" boxshadow="#dcdcdc" style="margin-bottom:3em;"]'.do_shortcode('[flatshadow_text class="circle transition"]'.esc_attr("404!").'[/flatshadow_text]').'[/flatshadows]'); ?>
 
 					<p></p>
 		        	            
