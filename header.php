@@ -73,12 +73,12 @@
 					<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>" rel="home"><?php echo do_shortcode('[flatshadow_text class="circle transition" style="font-size:24px;margin-right:6px;width:2.84em;" tagname="span"]'.esc_attr( get_bloginfo( 'title' ) ).'[/flatshadow_text]'); ?></a>
 				</h1>
 				<script type="text/javascript">
-					jQuery.noConflict();
-					jQuery(document).ready(function() {
-						jQuery(".flat-shadows.flat-icons-header .flat-icon").flatshadow({
-							angle: "SE", fade: false
-						});
+				jQuery.noConflict();
+				jQuery(document).ready(function() {
+					jQuery(".flat-shadows.flat-icons-header .flat-icon").flatshadow({
+						angle: "SE", fade: true
 					});
+				});
 				</script>
 				
 				<div class="nav-toggle">
