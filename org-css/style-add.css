@@ -65,6 +65,15 @@ body a:hover {
 	margin: 50px 0 30px 17%;
 }
 
+.header .blog-title.flat-shadows {
+	margin: 27px 0 0 17%;
+	display: inline-block;
+}
+
+.header .blog-title.flat-shadows a .flat-icon.half {
+	width: 47px;
+}
+
 
 /* -------------------------------------------------------------------------------- */
 /*	4. Navigation
@@ -366,53 +375,6 @@ a#cancel-comment-reply-link:hover,
 .flat-icon.circle.transition,
 .flat-icon.transition.circle {
 	width: 96px;
-}
-
-
-/* image gallery */
-
-.entry .gallery-select a:hover img {
-	-webkit-box-shadow: none !important;
-	-khtml-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	-ms-box-shadow: none !important;
-	-o-box-shadow: none !important;
-	box-shadow: none !important;
-}
-
-
-/* gallery */
-
-.gallery.default .gallery-item a img,
-.post-content .gallery.default .gallery-item a img {
-	border: 1px solid #eee !important;
-	-webkit-box-shadow: none !important;
-	-khtml-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	-ms-box-shadow: none !important;
-	-o-box-shadow: none !important;
-	box-shadow: none !important;
-}
-.gallery.default .gallery-item a:hover img,
-.post-content .gallery.default .gallery-item a:hover img {
-	-webkit-box-shadow: none !important;
-	-khtml-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	-ms-box-shadow: none !important;
-	-o-box-shadow: none !important;
-	box-shadow: none !important;
-}
-
-
-/* Image With Caption */
-
-.img-desc:hover img {
-	-webkit-box-shadow: none !important;
-	-khtml-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	-ms-box-shadow: none !important;
-	-o-box-shadow: none !important;
-	box-shadow: none !important;
 }
 
 

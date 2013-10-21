@@ -16,7 +16,7 @@
 			                                                	            
 		        <div class="post-content">
 
-					<?php echo do_shortcode('[flatshadows id="404" angle="SE" fade="true" boxshadow="#dcdcdc" style="margin-bottom:3em;"]'.do_shortcode('[flatshadow_text class="circle transition"]'.esc_attr("404!").'[/flatshadow_text]').'[/flatshadows]'); ?>
+					<?php echo do_shortcode('[flatshadows id="404" angle="SE" fade="true" boxshadow="color-shadow" style="margin-bottom: 3em;"]'.do_shortcode('[flatshadow class="circle transition" delim=""]'.esc_attr("404?").'[/flatshadow]').'[/flatshadows]'); ?>
 
 					<p></p>
 		        	            
