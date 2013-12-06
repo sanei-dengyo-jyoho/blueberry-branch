@@ -24,8 +24,8 @@ body {
 
 
 body {
-	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", Helvetica, Arial, Sans-serif;
-	background: #f6f6f6;
+	font-family: "Lato", "Helvetica Neue", 'メイリオ', Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", Helvetica, Arial, Sans-serif;
+	background: #f8f8ff;
 	font-size: 14px;
 }
 
@@ -35,6 +35,11 @@ body a {
 
 body a:hover {
 	color: #25CEFF;
+}
+
+
+cite {
+	text-align: center;
 }
 
 
@@ -65,13 +70,17 @@ body a:hover {
 	margin: 50px 0 30px 17%;
 }
 
-.header .blog-title.flat-shadows {
-	margin: 27px 0 0 17%;
-	display: inline-block;
+
+/* Long Shadow --------------------------------------- */
+
+
+.header .blog-title.longshadows-wrapper {
+	margin: 27px 0 0 17% !important;
+	display: inline-block !important;
 }
 
-.header .blog-title.flat-shadows a .flat-icon.half {
-	width: 47px;
+.header .blog-title.longshadows-wrapper a .longshadow.half {
+	width: 47px !important;
 }
 
 
@@ -85,11 +94,11 @@ body a:hover {
 
 .blog-menu ul li,
 .blog-menu ul li a {
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 
@@ -110,13 +119,18 @@ body a:hover {
 	margin-top: 40px;
 }
 
-.post-content .gallery-caption {
-	font-size: 13px;
-	line-height: 20px;
+.post .post-bubbles a:hover {
+	background-color: #25CEFF;
 }
 
-.post-bubbles a:hover {
-	background-color: #25CEFF;
+.content-inner img {
+	height: auto;
+	min-width: 150px;
+}
+
+.content-inner .gallery-caption {
+	font-size: 13px;
+	line-height: 20px;
 }
 
 
@@ -128,24 +142,8 @@ body a:hover {
 /* format-quote */
 
 
-.format-quote .content-inner p { color: #FFF; }
-
-.format-quote .post-content blockquote {
-	text-align: left;
-}
-
-.format-quote .post-content blockquote p { text-align: left; }
-
-.format-quote .post-content blockquote cite {
-	text-align: left;
-	margin: -1em 0 0 10em;
-	padding: 0;
-	display: block;
-	float: right;
-}
-
-.format-quote .post-content blockquote cite a:hover {
-	color: #25CEFF;
+.format-quote .content-inner p {
+	color: #FFF;
 }
 
 .single-format-quote .post-content p {
@@ -159,13 +157,7 @@ body a:hover {
 	color: #25CEFF;
 }
 
-.single-format-quote .post-content blockquote cite {
-	margin: -1em 1em 0 10em;
-	display: inline-block;
-	float: right;
-}
-
-.single-format-quote .post-content blockquote cite a {
+.single-format-quote .post-content cite a {
 	color: #25CEFF;
 }
 
@@ -206,16 +198,56 @@ body a:hover {
 	margin-bottom: 0;
 }
 
-.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
 	margin: 30px 0 20px;
 }
 
-.post-content h1+h1, .post-content h1+h2, .post-content h1+h3, .post-content h1+h4, .post-content h1+h5, .post-content h1+h6,
-.post-content h2+h1, .post-content h2+h2, .post-content h2+h3, .post-content h2+h4, .post-content h2+h5, .post-content h2+h6,
-.post-content h3+h1, .post-content h3+h2, .post-content h3+h3, .post-content h3+h4, .post-content h3+h5, .post-content h3+h6,
-.post-content h4+h1, .post-content h4+h2, .post-content h4+h3, .post-content h4+h4, .post-content h4+h5, .post-content h4+h6,
-.post-content h5+h1, .post-content h5+h2, .post-content h5+h3, .post-content h5+h4, .post-content h5+h5, .post-content h5+h6,
-.post-content h6+h1, .post-content h6+h2, .post-content h6+h3, .post-content h6+h4, .post-content h6+h5, .post-content h6+h6 {
+.post-content h1+h1,
+.post-content h1+h2,
+.post-content h1+h3,
+.post-content h1+h4,
+.post-content h1+h5,
+.post-content h1+h6,
+
+.post-content h2+h1,
+.post-content h2+h2,
+.post-content h2+h3,
+.post-content h2+h4,
+.post-content h2+h5,
+.post-content h2+h6,
+
+.post-content h3+h1,
+.post-content h3+h2,
+.post-content h3+h3,
+.post-content h3+h4,
+.post-content h3+h5,
+.post-content h3+h6,
+
+.post-content h4+h1,
+.post-content h4+h2,
+.post-content h4+h3,
+.post-content h4+h4,
+.post-content h4+h5,
+.post-content h4+h6,
+
+.post-content h5+h1,
+.post-content h5+h2,
+.post-content h5+h3,
+.post-content h5+h4,
+.post-content h5+h5,
+.post-content h5+h6,
+
+.post-content h6+h1,
+.post-content h6+h2,
+.post-content h6+h3,
+.post-content h6+h4,
+.post-content h6+h5,
+.post-content h6+h6 {
 	margin-top: 20px;
 }
 
@@ -235,7 +267,9 @@ body a:hover {
 /* Tables --------------------------------------- */
 
 
-.post-content table tbody > tr:nth-child(odd) > td { background: none; }
+.post-content table tbody > tr:nth-child(odd) > td {
+	background: none;
+}
 
 
 /* -------------------------------------------------------------------------------- */
@@ -264,7 +298,9 @@ a#cancel-comment-reply-link:hover,
 /* Comment meta content --------------------------------------- */
 
 
-.comment-meta-content cite a:hover { color: #25CEFF; }
+.comment-meta-content cite a:hover {
+	color: #25CEFF;
+}
 
 
 /* Respond --------------------------------------- */
@@ -366,28 +402,16 @@ a#cancel-comment-reply-link:hover,
 
 
 /* -------------------------------------------------------------------------------- */
-/* Shortcodes
-/* -------------------------------------------------------------------------------- */
-
-
-/* Flat Shadow */
-.flat-icon.circle,
-.flat-icon.circle.transition,
-.flat-icon.transition.circle {
-	width: 96px;
-}
-
-
-/* Note */
-
-.note-box {
-	min-height: 5em !important;
-}
-
-
-/* -------------------------------------------------------------------------------- */
 /*	13. Responsive
 /* -------------------------------------------------------------------------------- */
+
+
+@media ( max-width: 1100px ) {
+}
+
+
+@media ( max-width: 864px ) {
+}
 
 
 @media ( max-width: 800px ) {
@@ -396,7 +420,7 @@ a#cancel-comment-reply-link:hover,
 }
 
 
-@media (max-width: 770px) {
+@media ( max-width: 770px) {
 }
 
 
@@ -414,7 +438,10 @@ a#cancel-comment-reply-link:hover,
 	.post-content pre {
 		line-height: 140%;
 	}
+
+
 	/* Header --------------------------------------- */
+
 
 	.header .logo,
 	.header .blog-title {
@@ -453,13 +480,6 @@ a#cancel-comment-reply-link:hover,
 		height: 0;
 	}
 
-	.content-inner {
-		padding: 0;
-		background: none;
-		border: none;
-		box-shadow: none;
-	}
-
 	.single .post,
 	.page .post,
 	.posts .attachment,
@@ -467,7 +487,21 @@ a#cancel-comment-reply-link:hover,
 		padding: 0;
 		background: none;
 		border: none;
-		box-shadow: none;
+	}
+
+	.content-inner {
+		padding: 0;
+		background: none;
+		border: none;
+	}
+
+	.content-inner tr,
+	.content-inner img {
+		page-break-inside: avoid;
+	}
+
+	.content-inner img {
+		max-width: 100%;
 	}
 
 	.footer {

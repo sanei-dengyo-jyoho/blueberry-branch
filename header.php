@@ -1,6 +1,9 @@
-<?php?><!DOCTYPE html>
+<?php
+/**
+ */
+?><!DOCTYPE html>
 
-<html <?php language_attributes(); ?>
+<html <?php language_attributes(); ?>>
 
 	<head>
 		
@@ -69,15 +72,10 @@
 				
 				<?php endif; ?>
 			        				
-				<h1 class="blog-title flat-shadows flat-icons-blog-title">
-					<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>" rel="home"><?php echo do_shortcode('[flatshadow class="half circle transition" delim="" tagname="span"]'.esc_attr( get_bloginfo( 'title' ) ).'[/flatshadow]'); ?></a>
+				<h1 class="blog-title longshadows-wrapper longshadows000">
+					<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>" rel="home"><?php echo do_shortcode('[longshadow class="half circle transition" delim="" tagname="span"]'.esc_attr( get_bloginfo( 'title' ) ).'[/longshadow]'); ?></a>
 				</h1>
-				<script type="text/javascript">
-				jQuery.noConflict();
-				jQuery(document).ready(function() {
-					jQuery(".flat-shadows.flat-icons-blog-title .flat-icon").flatshadow({ angle: "SE", fade: true });
-				});
-				</script>
+				<script type="text/javascript">jQuery.noConflict();jQuery(document).ready(function(){jQuery(".longshadows-wrapper.longshadows000 .longshadow").flatshadow({angle:"SE",fade:true})});</script>
 				
 				<div class="nav-toggle">
 				
