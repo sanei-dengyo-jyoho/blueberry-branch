@@ -12,8 +12,6 @@
 																		
 		<title><?php wp_title('|', true, 'right'); ?></title>
 				
-		<?php if ( is_singular() ) wp_enqueue_script( "comment-reply" ); ?>
-		 
 		<?php wp_head(); ?>
 	
 	</head>

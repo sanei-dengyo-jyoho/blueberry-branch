@@ -1,9 +1,4 @@
 <?php
-/**
- * Additional Shortcodes
- */
-
-
 /********************************************************************************/
 /* jqFloating Clouds */
 /********************************************************************************/
@@ -34,7 +29,7 @@ add_shortcode( 'jqfloat_holder', 'sc_jqfloat_holder' );
 function sc_jqfloat_clouds( $atts ) {
 	$ret  = '';
 	for ( $i = 1; $i <= 4; $i++ ) {
-		$ret .= '<div id="jqfloat-cloud'.$i.'" class="jqfloat-cloud"></div>';
+		$ret .= '<div id="jqfloat-cloud' . $i . '" class="jqfloat-cloud"></div>';
 	}
 	$ret .= '<div id="jqfloat-sun"></div>';
 	return $ret;
@@ -55,15 +50,15 @@ function sc_erika_style( $atts ) {
 
 	$playbutton = '';
 	if ( $button == 'true' ) {
-		$playbutton = '<a type="button" class="button player-pause" id="player-button" href="#'.$id.'"></a>';
+		$playbutton = '<a type="button" class="button player-pause" id="player-button" href="#' . $id . '"></a>';
 	}
 	$datastyle = '';
 	if ( $background != '' ) {
-		$datastyle = ' style="background:'.$background.';"';
+		$datastyle = ' style="background:' . $background . ';"';
 	}
 
 	$ret  = '';
-	$ret .= '<div id="erika-style"'.$datastyle.'>';
+	$ret .= '<div id="erika-style"' . $datastyle . '>';
 		$ret .= '<div id="erika-canvas">';
 			$ret .= '<div id="erika-corebody">';
 				$ret .= '<div id="erika-waist">';
@@ -234,4 +229,3 @@ function sc_erika_style( $atts ) {
 	return $ret;
 }
 add_shortcode( 'erika_style', 'sc_erika_style' );
-?>

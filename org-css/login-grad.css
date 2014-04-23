@@ -17,11 +17,6 @@ body {
 		-ms-linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
 		-ms-linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0 !important;
 	background:
-		-o-radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
-		-o-radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
-		-o-linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
-		-o-linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0 !important;
-	background:
 		radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
 		radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
 		linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
