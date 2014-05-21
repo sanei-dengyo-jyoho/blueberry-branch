@@ -21,6 +21,23 @@ add_action( 'wp_print_styles', 'my_delete_any_styles', 100 );
 
 
 /********************************************************************************/
+/* Style Sheet Load */
+/********************************************************************************/
+function my_load_stylesheet_files() {
+	if ( !is_admin() ) {
+		wp_register_style(
+			'icomoon',
+			get_stylesheet_directory_uri() . '/css/icomoon.min.css'
+		);
+
+		wp_enqueue_style( 'icomoon' );
+	}
+}
+
+add_action( 'wp_print_styles', 'my_load_stylesheet_files' );
+
+
+/********************************************************************************/
 /* 本文からの抜粋末尾の文字列を指定する */
 /********************************************************************************/
 function my_auto_excerpt_more( $more ) {

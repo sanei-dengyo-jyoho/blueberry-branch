@@ -1,7 +1,7 @@
 /**************************************/
 /* overlay fadein */
 /**************************************/
-@media only screen and ( max-width: 864px ) {
+@media screen and ( max-width: 864px ) {
 
 	@-webkit-keyframes ImageOverFadein {
 		from {
@@ -23,52 +23,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFadein {
-		from {
-			top: 40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			-moz-opacity: 0.25;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-moz-opacity: 0.75;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFadein {
-		from {
-			top: 40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			-ms-opacity: 0.25;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-ms-opacity: 0.75;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -98,7 +52,7 @@
 }
 
 
-@media only screen and ( max-width: 800px ) {
+@media screen and ( max-width: 800px ) {
 
 	@-webkit-keyframes ImageOverFadein {
 		from {
@@ -120,52 +74,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFadein {
-		from {
-			top: 40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			-moz-opacity: 0.25;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-moz-opacity: 0.75;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFadein {
-		from {
-			top: 40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			-ms-opacity: 0.25;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-ms-opacity: 0.75;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -195,7 +103,7 @@
 }
 
 
-@media only screen and ( max-width: 770px ) {
+@media screen and ( max-width: 770px ) {
 
 	@-webkit-keyframes ImageOverFadein {
 		from {
@@ -217,52 +125,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFadein {
-		from {
-			top: 40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			-moz-opacity: 0.25;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-moz-opacity: 0.75;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFadein {
-		from {
-			top: 40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			-ms-opacity: 0.25;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-ms-opacity: 0.75;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -292,7 +154,7 @@
 }
 
 
-@media only screen and ( max-width: 600px ) {
+@media screen and ( max-width: 600px ) {
 
 	@-webkit-keyframes ImageOverFadein {
 		from {
@@ -314,52 +176,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFadein {
-		from {
-			top: 40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			-moz-opacity: 0.25;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-moz-opacity: 0.75;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFadein {
-		from {
-			top: 40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			-ms-opacity: 0.25;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-ms-opacity: 0.75;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -392,7 +208,7 @@
 /**************************************/
 /* overlay fadeout */
 /**************************************/
-@media only screen and ( max-width: 864px ) {
+@media screen and ( max-width: 864px ) {
 
 	@-webkit-keyframes ImageOverFadeout {
 		from {
@@ -414,52 +230,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 0;
-		}
-	}
-
-	@-moz-keyframes ImageOverFadeout {
-		from {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		40% {
-			top: 40%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-moz-opacity: 0.25;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 0;
-		}
-	}
-
-	@-ms-keyframes ImageOverFadeout {
-		from {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		40% {
-			top: 40%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-webkit-opacity: 0.25;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 0;
 		}
 	}
 
@@ -489,7 +259,7 @@
 }
 
 
-@media only screen and ( max-width: 800px ) {
+@media screen and ( max-width: 800px ) {
 
 	@-webkit-keyframes ImageOverFadeout {
 		from {
@@ -511,52 +281,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 0;
-		}
-	}
-
-	@-moz-keyframes ImageOverFadeout {
-		from {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		40% {
-			top: 40%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-moz-opacity: 0.25;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 0;
-		}
-	}
-
-	@-ms-keyframes ImageOverFadeout {
-		from {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		40% {
-			top: 40%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-webkit-opacity: 0.25;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 0;
 		}
 	}
 
@@ -586,7 +310,7 @@
 }
 
 
-@media only screen and ( max-width: 770px ) {
+@media screen and ( max-width: 770px ) {
 
 	@-webkit-keyframes ImageOverFadeout {
 		from {
@@ -608,52 +332,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 0;
-		}
-	}
-
-	@-moz-keyframes ImageOverFadeout {
-		from {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		40% {
-			top: 40%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-moz-opacity: 0.25;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 0;
-		}
-	}
-
-	@-ms-keyframes ImageOverFadeout {
-		from {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		40% {
-			top: 40%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-webkit-opacity: 0.25;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 0;
 		}
 	}
 
@@ -683,7 +361,7 @@
 }
 
 
-@media only screen and ( max-width: 600px ) {
+@media screen and ( max-width: 600px ) {
 
 	@-webkit-keyframes ImageOverFadeout {
 		from {
@@ -705,52 +383,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 0;
-		}
-	}
-
-	@-moz-keyframes ImageOverFadeout {
-		from {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		40% {
-			top: 40%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-moz-opacity: 0.25;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 0;
-		}
-	}
-
-	@-ms-keyframes ImageOverFadeout {
-		from {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		40% {
-			top: 40%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 0.5;
-		}
-		80% {
-			top: 40%;
-			-webkit-opacity: 0.25;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 0;
 		}
 	}
 
@@ -783,7 +415,7 @@
 /**************************************/
 /* overlay slide in from the top */
 /**************************************/
-@media only screen and ( max-width: 864px ) {
+@media screen and ( max-width: 864px ) {
 
 	@-webkit-keyframes ImageOverFromTop {
 		from {
@@ -805,52 +437,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromTop {
-		from {
-			top: 0;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromTop {
-		from {
-			top: 0;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -880,7 +466,7 @@
 }
 
 
-@media only screen and ( max-width: 800px ) {
+@media screen and ( max-width: 800px ) {
 
 	@-webkit-keyframes ImageOverFromTop {
 		from {
@@ -902,52 +488,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromTop {
-		from {
-			top: 0;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromTop {
-		from {
-			top: 0;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -977,7 +517,7 @@
 }
 
 
-@media only screen and ( max-width: 770px ) {
+@media screen and ( max-width: 770px ) {
 
 	@-webkit-keyframes ImageOverFromTop {
 		from {
@@ -999,52 +539,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromTop {
-		from {
-			top: 0;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromTop {
-		from {
-			top: 0;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -1074,7 +568,7 @@
 }
 
 
-@media only screen and ( max-width: 600px ) {
+@media screen and ( max-width: 600px ) {
 
 	@-webkit-keyframes ImageOverFromTop {
 		from {
@@ -1096,52 +590,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromTop {
-		from {
-			top: 0;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromTop {
-		from {
-			top: 0;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -1174,7 +622,7 @@
 /**************************************/
 /* overlay slide in from the bottom */
 /**************************************/
-@media only screen and ( max-width: 864px ) {
+@media screen and ( max-width: 864px ) {
 
 	@-webkit-keyframes ImageOverFromBottom {
 		from {
@@ -1196,52 +644,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromBottom {
-		from {
-			top: 80%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromBottom {
-		from {
-			top: 80%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -1271,7 +673,7 @@
 }
 
 
-@media only screen and ( max-width: 800px ) {
+@media screen and ( max-width: 800px ) {
 
 	@-webkit-keyframes ImageOverFromBottom {
 		from {
@@ -1293,52 +695,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromBottom {
-		from {
-			top: 80%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromBottom {
-		from {
-			top: 80%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -1368,7 +724,7 @@
 }
 
 
-@media only screen and ( max-width: 770px ) {
+@media screen and ( max-width: 770px ) {
 
 	@-webkit-keyframes ImageOverFromBottom {
 		from {
@@ -1390,52 +746,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromBottom {
-		from {
-			top: 80%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromBottom {
-		from {
-			top: 80%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -1465,7 +775,7 @@
 }
 
 
-@media only screen and ( max-width: 600px ) {
+@media screen and ( max-width: 600px ) {
 
 	@-webkit-keyframes ImageOverFromBottom {
 		from {
@@ -1487,52 +797,6 @@
 		to {
 			top: 40%;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromBottom {
-		from {
-			top: 80%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromBottom {
-		from {
-			top: 80%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 44%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 42%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -1565,7 +829,7 @@
 /**************************************/
 /* overlay slide in from the left */
 /**************************************/
-@media only screen and ( max-width: 864px ) {
+@media screen and ( max-width: 864px ) {
 
 	@-webkit-keyframes ImageOverFromLeft {
 		from {
@@ -1592,62 +856,6 @@
 			top: 40%;
 			left: 0;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromLeft {
-		from {
-			top: 40%;
-			left: -40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: 4%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: 2%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromLeft {
-		from {
-			top: 40%;
-			left: -40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: 4%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: 2%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -1682,7 +890,7 @@
 }
 
 
-@media only screen and ( max-width: 800px ) {
+@media screen and ( max-width: 800px ) {
 
 	@-webkit-keyframes ImageOverFromLeft {
 		from {
@@ -1709,62 +917,6 @@
 			top: 40%;
 			left: 0;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromLeft {
-		from {
-			top: 40%;
-			left: -40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: 4%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: 2%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromLeft {
-		from {
-			top: 40%;
-			left: -40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: 4%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: 2%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -1799,7 +951,7 @@
 }
 
 
-@media only screen and ( max-width: 770px ) {
+@media screen and ( max-width: 770px ) {
 
 	@-webkit-keyframes ImageOverFromLeft {
 		from {
@@ -1826,62 +978,6 @@
 			top: 40%;
 			left: 0;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromLeft {
-		from {
-			top: 40%;
-			left: -40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: 4%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: 2%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromLeft {
-		from {
-			top: 40%;
-			left: -40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: 4%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: 2%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -1916,7 +1012,7 @@
 }
 
 
-@media only screen and ( max-width: 600px ) {
+@media screen and ( max-width: 600px ) {
 
 	@-webkit-keyframes ImageOverFromLeft {
 		from {
@@ -1943,62 +1039,6 @@
 			top: 40%;
 			left: 0;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromLeft {
-		from {
-			top: 40%;
-			left: -40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: 4%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: 2%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromLeft {
-		from {
-			top: 40%;
-			left: -40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: 4%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: 2%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -2036,7 +1076,7 @@
 /**************************************/
 /* overlay slide in from the right */
 /**************************************/
-@media only screen and ( max-width: 864px ) {
+@media screen and ( max-width: 864px ) {
 
 	@-webkit-keyframes ImageOverFromRight {
 		from {
@@ -2063,62 +1103,6 @@
 			top: 40%;
 			left: 0;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromRight {
-		from {
-			top: 40%;
-			left: 40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: -4%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: -2%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromRight {
-		from {
-			top: 40%;
-			left: 40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: -4%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: -2%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -2153,7 +1137,7 @@
 }
 
 
-@media only screen and ( max-width: 800px ) {
+@media screen and ( max-width: 800px ) {
 
 	@-webkit-keyframes ImageOverFromRight {
 		from {
@@ -2180,62 +1164,6 @@
 			top: 40%;
 			left: 0;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromRight {
-		from {
-			top: 40%;
-			left: 40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: -4%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: -2%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromRight {
-		from {
-			top: 40%;
-			left: 40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: -4%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: -2%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -2270,7 +1198,7 @@
 }
 
 
-@media only screen and ( max-width: 770px ) {
+@media screen and ( max-width: 770px ) {
 
 	@-webkit-keyframes ImageOverFromRight {
 		from {
@@ -2297,62 +1225,6 @@
 			top: 40%;
 			left: 0;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromRight {
-		from {
-			top: 40%;
-			left: 40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: -4%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: -2%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromRight {
-		from {
-			top: 40%;
-			left: 40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: -4%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: -2%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
 		}
 	}
 
@@ -2387,7 +1259,7 @@
 }
 
 
-@media only screen and ( max-width: 600px ) {
+@media screen and ( max-width: 600px ) {
 
 	@-webkit-keyframes ImageOverFromRight {
 		from {
@@ -2414,62 +1286,6 @@
 			top: 40%;
 			left: 0;
 			-webkit-opacity: 1;
-		}
-	}
-
-	@-moz-keyframes ImageOverFromRight {
-		from {
-			top: 40%;
-			left: 40%;
-			-moz-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: -4%;
-			-moz-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: -2%;
-			-moz-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-moz-opacity: 1;
-		}
-	}
-
-	@-ms-keyframes ImageOverFromRight {
-		from {
-			top: 40%;
-			left: 40%;
-			-ms-opacity: 0;
-		}
-		40% {
-			top: 40%;
-			left: -4%;
-			-ms-opacity: 0.75;
-		}
-		60% {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
-		}
-		80% {
-			top: 40%;
-			left: -2%;
-			-ms-opacity: 1;
-		}
-		to {
-			top: 40%;
-			left: 0;
-			-ms-opacity: 1;
 		}
 	}
 

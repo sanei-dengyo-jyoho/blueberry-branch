@@ -33,6 +33,49 @@ cite a {
 }
 
 
+/******************************************************************************/
+/* font-family : icomoon */
+/******************************************************************************/
+[class^="icomoon-"],
+[class*=" icomoon-"] {
+	speak: none;
+
+	-webkit-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+/* makes sure icons active on rollover in links */
+a [class^="icomoon-"],
+a [class*=" icomoon-"] {
+	display: inline;
+}
+/* increased font size for icon-large */
+[class^="icomoon-"].icomoon-fixed-width,
+[class*=" icomoon-"].icomoon-fixed-width {
+	display: inline-block;
+	width: 1.1428571428571428em;
+	text-align: right;
+	padding-right: 0.2857142857142857em;
+}
+
+.icomoons-ul {
+	margin-left: 2.142857142857143em;
+	list-style-type: none;
+}
+
+.icomoons-ul > li {
+	list-style-type: none;
+	position: relative;
+}
+
+.icomoons-ul .icomoon-li {
+	position: absolute;
+	left: -2.142857142857143em;
+	width: 2.142857142857143em;
+	text-align: center;
+	line-height: inherit;
+}
+
+
 /* -------------------------------------------------------------------------------- */
 /*	2.	Structure
 /* -------------------------------------------------------------------------------- */
@@ -88,8 +131,6 @@ cite a {
 .blog-menu ul li,
 .blog-menu ul li a {
 	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
 
@@ -385,22 +426,11 @@ a#cancel-comment-reply-link:hover,
 
 
 /* -------------------------------------------------------------------------------- */
-/* Plugins
-/* -------------------------------------------------------------------------------- */
-
-
-/* Ultimate Back To Top */
-#top-link a:hover {
-	color: #fff !important;
-}
-
-
-/* -------------------------------------------------------------------------------- */
 /*	13. Responsive
 /* -------------------------------------------------------------------------------- */
 
 
-@media only screen and ( max-width: 1100px ) {
+@media screen and ( max-width: 1100px ) {
 
 	.image-over-wrapper-link,
 	.image-over-wrapper-zoom,
@@ -453,7 +483,7 @@ a#cancel-comment-reply-link:hover,
 }
 
 
-@media only screen and ( max-width: 864px ) {
+@media screen and ( max-width: 864px ) {
 
 	.image-over-wrapper-link,
 	.image-over-wrapper-zoom,
@@ -506,7 +536,7 @@ a#cancel-comment-reply-link:hover,
 }
 
 
-@media only screen and ( max-width: 800px ) {
+@media screen and ( max-width: 800px ) {
 
 	body { font-size: 14px; }
 
@@ -582,7 +612,7 @@ a#cancel-comment-reply-link:hover,
 }
 
 
-@media only screen and ( max-width: 770px ) {
+@media screen and ( max-width: 770px ) {
 
 	.image-over-wrapper-link,
 	.image-over-wrapper-zoom,
@@ -656,7 +686,7 @@ a#cancel-comment-reply-link:hover,
 }
 
 
-@media only screen and ( max-width: 600px ) {
+@media screen and ( max-width: 600px ) {
 
 	body { font-size: 13px; }
 
@@ -764,48 +794,48 @@ a#cancel-comment-reply-link:hover,
 @media print {
 
 	body {
-		background: none;
+		background: none !important;
 	}
 
 	.navigation {
-		display: none;
-		width: 0;
-		height: 0;
+		display: none !important;
+		width: 0 !important;
+		height: 0 !important;
 	}
 
 	.header {
-		display: none;
-		width: 0;
-		height: 0;
+		display: none !important;
+		width: 0 !important;
+		height: 0 !important;
 	}
 
 	.single .post,
 	.page .post,
 	.posts .attachment,
 	.error404 .post {
-		padding: 0;
-		background: none;
-		border: none;
+		padding: 0 !important;
+		background: none !important;
+		border: none !important;
 	}
 
 	.content-inner {
-		padding: 0;
-		background: none;
-		border: none;
+		padding: 0 !important;
+		background: none !important;
+		border: none !important;
 	}
 
 	.content-inner tr,
 	.content-inner img {
-		page-break-inside: avoid;
+		page-break-inside: avoid !important;
 	}
 
 	.content-inner img {
-		max-width: 100%;
+		max-width: 100% !important;
 	}
 
 	.footer {
-		display: none;
-		width: 0;
-		height: 0;
+		display: none !important;
+		width: 0 !important;
+		height: 0 !important;
 	}
 }

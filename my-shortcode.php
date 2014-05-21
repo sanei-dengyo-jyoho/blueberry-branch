@@ -42,11 +42,11 @@ add_shortcode( 'jqfloat_clouds', 'sc_jqfloat_clouds' );
 /* Dancing Erika Style */
 /********************************************************************************/
 function sc_erika_style( $atts ) {
-	extract(shortcode_atts(array(
+	extract( shortcode_atts( array(
 			'background'	=>	'',
 			'button'		=>	'true',
 			'id'			=>	'erika-style',
-	), $atts));
+	), $atts ) );
 
 	$playbutton = '';
 	if ( $button == 'true' ) {
